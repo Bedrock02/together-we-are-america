@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-crema: #f6eddc;
+  --color-cacao: #4a2e1b;
+  --color-bosque: #2f6a45;
+  --color-coral: #d86d4b;
+  --color-mango: #f1b45e;
+  --color-cielo: #a4cfd5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--color-cacao);
+  background-color: rgb(64, 144, 196);
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+button:focus-visible {
+  outline: 3px solid var(--color-bosque);
+  outline-offset: 2px;
+}
